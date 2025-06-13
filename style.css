@@ -122,6 +122,11 @@ main {
     color: whitesmoke
 }
 
+ul {
+    color: whitesmoke;
+    font-family: 'Open Sans', sans-serif
+}
+
 article {
     flex: 4;
 }
