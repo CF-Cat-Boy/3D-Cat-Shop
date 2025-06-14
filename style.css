@@ -16,6 +16,7 @@ body {
 
 .flex {
     display: flex;
+    padding: auto;
 }
 
 .flexwrap {
@@ -24,13 +25,24 @@ body {
     padding: auto;
 }
 
+.inline-flexwrap {
+    display: inline flex;
+    flex-wrap: wrap;
+}
+
 .inline-flex {
-    display: inline-flex;
+    display: inline flex;
     padding: auto;
 }
 
 .pad {
-    padding: auto;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.normal {
+    text-decoration: none;
+    color: whitesmoke;
 }
 
 /* || typography */
@@ -42,13 +54,20 @@ h3 {
     color: whitesmoke;
 }
 
+option {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
 p,
 input,
 li,
 dd,
-dt {
+dt,
+label {
     font-family: 'Open Sans', sans-serif;
     color: whitesmoke;
+    
 }
 
 h1 {
